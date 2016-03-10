@@ -1,3 +1,3 @@
 #! /bin/bash
 
-python tools/server.py
+python bin/server.py
