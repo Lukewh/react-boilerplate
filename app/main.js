@@ -4,9 +4,9 @@ import ReactDOM from 'react-dom';
 class MainView extends React.Component {
   render() {
     return (
-      <div className="main"><h1>Success</h1></div>
+      <h1>Success</h1>
     );
   }
 }
 
-ReactDOM.render(<MainView />, document.body);
+ReactDOM.render(<MainView />, document.body.querySelector('.main'));
